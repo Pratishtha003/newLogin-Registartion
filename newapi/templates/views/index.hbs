@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .hero-section {
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .main-content {
+            margin-top: 30px;
+        }
+
+        .main-content h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            /* max-width: 800px;
+            margin: 20px auto;
+            padding: 20px; */
+            background:linear-gradient(rgba(58, 10, 190, 0.479), rgba(10, 174, 106, 0.744)) , url("https://th.bing.com/th/id/OIP.nFPlWPw9dHkdJ067qMANGAHaE8?w=296&h=197&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+            background-size:cover ;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        
+        .body{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .hero-section {
+            text-align: center;
+            padding-top: 100px;
+            /* background-color: blueviolet; */
+            color: white;
+            width: 500px;
+            height: 250px;
+            margin-left: 350px;
+            /* padding-top: 200px; */
+            /* margin-top: 200px; */
+            /* width: 400px; */
+        }
+
+        .hero-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .main-content {
+            margin-top: 80px;
+        }
+
+        .main-content h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+       
+        .h1{
+            margin-top: 150px;
+            margin-left: 60px;
+        }
+         .navbar {
+            /* Add styles for your navbar, for example: */
+            position: fixed;
+            width: 100%;
+            
+            top: 0;
+            z-index: 1000;
+        }
+        .p{
+            margin-left: 50px;
+        }
+        .under{
+            display: flex;
+            margin-left: 200px;
+            color: blue;
+        }
+
+        button{
+            height: 30px;
+            background-color: aqua;
+            border: solid 1px aqua;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    {{!-- {{>navbar}} --}}
+
+     <div class="navbar">
+        {{> navbar}}
+    </div>
+
+     {{!-- <div class="container">
+        <section class="hero-section">
+            <h1>Welcome to Our Website</h1>
+            <p>Explore and discover amazing things.</p>
+        </section>
+
+        <section class="main-content">
+            <h2>What We Offer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed varius euismod orci, ac eleifend nisl luctus vel.</p>
+            <img src="https://th.bing.com/th/id/OIP.C-lJoagtBtZQ2_hTCHq2mgHaE7?w=274&h=183&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Main Image">
+        </section>
+    </div> --}}
+
+    {{!-- <footer>
+        <p>&copy; 2023 Your Website</p>
+    </footer> --}}
+
+    <div class="container">
+        <div class="hero-section">
+            <h1 class="h1">Welcome to Our Website</h1>
+            <p class="p">Explore and discover amazing things.</p>
+            <div class="under">
+                <div class="e1"><button><a href="/register">Register</a></button></div>
+                <div class="e1"><button><a href='../views/login.hbs'>Login</a></button></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,255 @@
+{{!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="/submit_login" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Login</button>
+  </form>
+
+</body>
+</html> --}}
+
+
+{{!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .btnRegister {
+            /* background-color: #3498db;  */
+            /* background: transparent; */
+            background: linear-gradient(to right, #41aaef, #21e1bb);
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        .btnRegister:hover {
+            background-color: #2980b9; /* Change this color for the hover effect */
+        }
+  </style>
+</head>
+<body>
+
+  <form action="/login" method="POST">
+    <label for="firstName"></label>
+    <input type="text" id="firstName" name="firstName" placeholder="Name" required>
+
+    <label for="username"></label>
+    <input type="text" id="username" name="username" placeholder="Username" required>
+
+    <label for="password"></label>
+    <input type="password" id="password" name="password" placeholder="Password" required>
+
+    <input type="submit" class="btnRegister" value="Login">
+  </form>
+
+</body>
+</html> --}}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      /* background-color: #f4f4f4; */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background:linear-gradient(rgba(40, 3, 121, 0.703), rgba(8, 173, 173, 0.868)) , url("https://th.bing.com/th/id/OIP.x4rvl2KtA0Ht1UPvkHNYhAHaED?w=337&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+      background-size:cover ;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    form {
+      background-color: #fff;
+      z-index: 1;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .btnRegister {
+            /* background-color: #3498db;  */
+            /* background: transparent; */
+            background: linear-gradient(to right, #41aaef, #21e1bb);
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        .btnRegister:hover {
+            background-color: #2980b9; /* Change this color for the hover effect */
+        }
+
+        .h2{
+            padding-left: 30px;
+            font-weight: 900;
+        }
+        input{
+            border-radius: 5px;
+            border: solid 2px rgb(187, 179, 179);
+        }
+        .logobig{
+            /* border-radius: 20px; */
+            margin-left: -25px;
+        
+        }
+        .edit{
+          margin-left: 60px;
+        }
+  </style>
+</head>
+<body>
+    <!-- <h2>Login</h2> -->
+    <!-- <div><img src="https://th.bing.com/th/id/OIP.GYe9vUXOA-4vU0B0F4ZbYwAAAA?w=173&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" height="500px" width="500px" style="position: absolute; border-radius: 10px; margin-top: -250px; margin-left: -400px; z-index: 0;"></div> -->
+    <div>
+  <div class="logobig"><img src="https://th.bing.com/th?id=OIP.zdaSpxoPHv8DaosKuhtu5wHaGE&w=276&h=226&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="" height="100px" style="border-radius: 50%; width: 100px; margin-left: 100px; position: absolute; margin-top: -60px;"></div>
+  <form action="/login" method="POST" >
+    
+    <h2 class="h2">USER LOGIN</h2>
+    <label for="firstName"></label>
+    <input type="text" id="firstName" name="firstName" placeholder="Name" required>
+
+    <label for="username"></label>
+    <input type="text" id="username" name="username" placeholder="Username" required>
+
+    <label for="password"></label>
+    <input type="password" id="password" name="password" placeholder="Password" required>
+    <p><a href="/change">Edit Form</a><a href="/delete" class="edit">Delete User</a></p>
+
+    <input type="submit" class="btnRegister" value="Login">
+  </form>
+  </div>
+
+</body>
+</html>
